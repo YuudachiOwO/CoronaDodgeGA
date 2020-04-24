@@ -58,3 +58,14 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+CoronaDodgeGame/Library/assetDatabase3
+
+CoronaDodgeGame/Library/
+
+CoronaDodgeGame/Temp/
+
+CoronaDodgeGame/.vs/
+
+CoronaDodgeGame/Build/
+
+CoronaDodgeGame/CoronaDodgeGame.sln
