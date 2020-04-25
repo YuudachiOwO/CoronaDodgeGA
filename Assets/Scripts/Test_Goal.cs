@@ -5,13 +5,10 @@ using UnityEngine;
 public class Test_Goal : MonoBehaviour
 {
 
-    /*private void OnCollisionEnter(Collision col)
+    private void OnCollisionEnter(Collision col)
     {
-        if (col.)
-        {
-
-        }
-    } */
+        Debug.Log("ayy");
+    } 
 
 
 }
