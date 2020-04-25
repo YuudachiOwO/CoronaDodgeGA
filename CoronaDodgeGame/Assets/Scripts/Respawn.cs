@@ -7,6 +7,8 @@ public class Respawn : MonoBehaviour
     public Transform player;
     public Transform respawnPoint;
 
+
+
     private void OnTriggerEnter(Collider col)
     {
         player.transform.position = respawnPoint.transform.position;

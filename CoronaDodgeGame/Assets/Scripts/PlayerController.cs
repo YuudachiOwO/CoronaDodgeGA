@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private Vector3 moveInput;
     private Vector3 moveVelocity;
-
+    public GameObject menuContainer;
 
 
     void Start()
@@ -37,6 +37,19 @@ public class PlayerController : MonoBehaviour
         rb.MovePosition((Vector3)transform.position + (direction * moveSpeed * Time.deltaTime));
     }
 
+    private void OnTriggerEnter(Collider col)
+    {
+
+        Respawn hit = col.gameObject.GetComponent<Respawn>();
+        if (hit != null)
+        {
+
+            Destroy(gameObject);
+            menuContainer.SetActive(true);
+
+        }
+
+    }
 
 
 
