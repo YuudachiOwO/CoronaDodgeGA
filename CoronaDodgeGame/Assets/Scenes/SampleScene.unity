@@ -519,15 +519,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 885204681}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9436437c220e31645afd51025d9e5716, type: 3}
+  m_Script: {fileID: 11500000, guid: 84dba5922ce4be6419d093bc06a57cc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerPos: {fileID: 922407669}
-  xMin: -16
-  xMax: 16
-  zMin: -35
-  zMax: 30
-  smoothSpeed: 0.106
+  xMin: -10
+  xMax: 10
+  zMin: -10
+  zMax: 10
+  smoothSpeed: 0.25
 --- !u!4 &885204683
 Transform:
   m_ObjectHideFlags: 0
@@ -1937,5 +1937,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4092169995449905196, guid: 0e90cc7a93769f84ba2e66a34a108bde, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0e90cc7a93769f84ba2e66a34a108bde, type: 3}
